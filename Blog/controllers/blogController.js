@@ -4,6 +4,9 @@ const codeFactory = require('../controllers/codeFactory')
 //to show all showing Blog
 exports. getAllBlog = codeFactory.getAll(Blog)
 
+//  get  blog by Id
+exports. getOneBlog = codeFactory.getOne(Blog)
+
 //to create Particular Blog
 exports.creatBlog =  codeFactory.createOne(Blog)
 

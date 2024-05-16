@@ -7,6 +7,11 @@ router
 .route('/getAllBlog')
 .get(blogController.getAllBlog);
 
+
+router
+.route('/getBlogById/:id')
+.get(blogController.getOneBlog);
+
 router
 .route('/creatBlog')
 .post(blogController.creatBlog)
