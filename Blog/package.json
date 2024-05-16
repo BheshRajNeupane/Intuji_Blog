@@ -1,0 +1,23 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "**Installation** <br>   $ npm install <br>",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": " NODE_ENV=development nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js"
+  },
+  "author": "Bhesh raj Neupane",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.2.0",
+    "helmet": "^7.1.0",
+    "hpp": "^0.2.3",
+    "mongoose": "^8.3.5",
+    "nodemon": "^3.1.0",
+    "xss-clean": "^0.1.4"
+  }
+}
