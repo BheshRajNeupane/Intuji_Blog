@@ -13,9 +13,10 @@ https://documenter.getpostman.com/view/24028174/2s9YkrcfSD
 
 **Documentation**
 
+[Intuji Assignment documentation.pdf](https://github.com/BheshRajNeupane/Intuji_Blog/files/15334127/Intuji.Assignment.documetation.pdf)
 
 
 
 
 **TechStack** <br>
-Nodejs (Express) , MongoDB 
+Nodejs (Express) , RestAPI , MongoDB 
